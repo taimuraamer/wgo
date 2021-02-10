@@ -1,0 +1,189 @@
+Installation instructions
+=========================
+
+These instructions cover installing and uninstalling Robot Framework and its
+preconditions on different operating systems. If you already have [pip](http://pip-installer.org) installed, it is enough to run:
+
+    pip install robotframework
+
+**Introduction**
+------------
+
+[Robot Framework](http://robotframework.org) is implemented with [Python](http://python.org) and supports also [Jython](http://jython.org), [IronPython](http://ironpython.net) and [PyPy](http://pypy.org).
+Before installing the framework, an obvious precondition_ is installing at
+least one of these interpreters.
+
+Different ways to install Robot Framework itself are listed below and explained
+more thoroughly in the subsequent sections.
+
+**Installing with pip**
+    Using pip is the recommended way to install Robot Framework. As the
+    standard Python package manager it is included in the latest Python,
+    Jython and IronPython versions. If you already have pip available, you
+    can simply execute::
+
+        pip install robotframework
+
+**Installing from source**
+    This approach works regardless the operating system and the Python
+    interpreter used. You can get the source code either by downloading a
+    source distribution from [PyPI](https://pypi.python.org/pypi/robotframework)
+    and extracting it, or by cloning the
+    [GitHub repository](https://github.com/robotframework/robotframework) .
+
+**Manual installation**
+    If you have special needs and nothing else works, you can always do
+    a custom manual installation.
+    
+
+Preconditions
+-------------
+
+Robot Framework is supported on Python (both Python 2 and Python 3), Jython 
+(JVM) and IronPython (.NET) and PyPy. The interpreter you want to use should
+be installed before installing the framework itself.
+
+Which interpreter to use depends on the needed test libraries and test
+environment in general. Some libraries use tools or modules that only work
+with Python, while others may use Java tools that require Jython or need
+.NET and thus IronPython. There are also many tools and libraries that run
+fine with all interpreters.
+
+If you do not have special needs or just want to try out the framework,
+it is recommended to use Python. It is the most mature implementation,
+considerably faster than Jython or IronPython (especially start-up time is
+faster), and also readily available on most UNIX-like operating systems.
+Another good alternative is using the `standalone JAR distribution`_ that
+only has Java as a precondition.
+
+**Configuring ``PATH``**
+
+The ``PATH`` environment variable lists locations where commands executed in
+a system are searched from. To make using Robot Framework easier from the
+command prompt, it is recommended to add the locations where the `runner
+scripts` are installed into the ``PATH``. It is also often useful to have
+the interpreter itself in the ``PATH`` to make executing it easy.
+
+When using Python on UNIX-like machines both Python itself and scripts
+installed with should be automatically in the ``PATH`` and no extra actions
+needed. On Windows and with other interpreters the ``PATH`` must be configured
+separately.
+
+TIP: Latest Python Windows installers allow setting ``PATH`` as part of
+         the installation. This is disabled by default, but `Add python.exe
+         to Path` can be enabled on the `Customize Python` screen. It will
+         add both the Python installation directory and the :file:`Scripts`
+         directory to the ``PATH``.
+
+**What directories to add to ``PATH``**
+
+
+What directories you need to add to the ``PATH`` depends on the interpreter and
+the operating system. The first location is the installation directory of
+the interpreter (e.g. (file)[C:\\Python27] and the other is the location
+where scripts are installed with that interpreter. Both Python and IronPython
+install scripts to `Scripts` directory under the installation directory
+on Windows (e.g. `C:\Python27\Scripts`).
+Notice that the :file:`Scripts` and :file:`bin` directories may not be created
+as part of the interpreter installation, but only later when Robot Framework
+or some other third party module is installed.
+
+**Setting ``PATH`` on Windows**
+
+
+On Windows you can configure ``PATH`` by following the steps below. Notice
+that the exact setting names may be different on different Windows versions,
+but the basic approach should still be the same.
+
+1. Open `Control Panel > System > Advanced > Environment Variables`. There
+   are `User variables` and `System variables`, and the difference between
+   them is that user variables affect only the current users, whereas system
+   variables affect all users.
+
+2. To edit an existing ``PATH`` value, select `Edit` and add
+   `;<InstallationDir>;<ScriptsDir>` at the end of the value (e.g.
+   `;C:\Python27;C:\Python27\Scripts`). Note that the semicolons (`;`) are
+   important as they separate the different entries. To add a new ``PATH``
+   value, select `New` and set both the name and the value, this time without
+   the leading semicolon.
+
+3. Exit the dialog with `Ok` to save the changes.
+
+4. Start a new command prompt for the changes to take effect.
+
+
+
+
+Installing with pip
+-------------------
+
+The standard Python package manager is pip_, but there are also other
+alternatives such as [Buildout](http://buildout.org) and [easy_install](http://peak.telecommunity.com/DevCenter/EasyInstall). These instructions
+only cover using pip, but other package managers ought be able to install
+Robot Framework as well.
+
+Latest Python, Jython, IronPython and PyPy versions contain pip bundled in.
+Which versions contain it and how to possibly activate it is discussed in
+sections below. See pip_ project pages if for the latest installation
+instructions if you need to install it.
+
+Robot Framework 3.1 and newer are distributed as [wheels](http://pythonwheels.com), but earlier versions are available only
+          as source distributions in tar.gz format. It is possible to install
+          both using pip, but installing wheels is a lot faster.
+
+Only Robot Framework 2.7 and newer can be installed using pip. If you
+          need an older version, you must use other installation approaches.
+
+
+**Installing pip for Python**
+
+Starting from Python 2.7.9, the standard Windows installer by default installs
+and activates pip. Assuming you also have configured PATH and possibly
+set https_proxy_, you can run `pip install robotframework` right after
+Python installation. With Python 3.4 and newer pip is officially part of the
+interpreter and should be automatically available.
+
+Outside Windows and with older Python versions you need to install pip yourself.
+You may be able to do it using system package managers like Apt or Yum on Linux,
+but you can always use the manual installation instructions found from the pip_
+project pages.
+
+If you have multiple Python versions with pip installed, the version that is
+used when the ``pip`` command is executed depends on which pip is first in the
+PATH. An alternative is executing the ``pip`` module using the selected Python
+version directly:
+
+
+
+    python -m pip install robotframework
+    python3 -m pip install robotframework
+
+
+**Installing Atom**
+
+Download [atom editor](https://atom.io/download/windows_x64) and install  
+
+**Chrome Driver**
+
+ Download [chrome driver](http://chromedriver.chromium.org/downloads) and unzip the files and place them in ''C:\Python{}\Scripts
+ 
+ **Run the following commands in command prompt**
+
+
+		pip install --upgrade robotframework-selenium2library
+		pip install wheel
+		pip install six
+		pip install robotremoteserver
+		pip install kitchen
+		pip install setuptools
+
+**Variables YML**
+        pip install pyyaml
+ 
+
+ ** Running Tests**
+
+Production environment:   "robot -d report --variablefile .\resources\live.yml  .\tests\UI"
+
+ 
+

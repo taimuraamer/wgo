@@ -1,0 +1,478 @@
+
+# ------------------------------------------Menu------------------------------------------------------
+#_______________________________________________________________________________________________________
+
+SERVER:                     https://www.winnebago.com/
+BROWSER:                    chrome
+homepageLogo:               css=.logo__img[alt='Winnebago logo']
+menuModels:                 css=#topnavigation li:nth-child(1)
+modelItems:                 css=.product-list__mega-menu__image-section .u-block .b-loaded
+modelDetails:               css=.models-info-area .fa-list-ul
+menuShoppingTools:          css=#topnavigation li:nth-child(2) .menu__link
+parts&Service:              css=#shoppingToolsMegaMenu .btn[href='/owners/owner-tools']
+shoppingToolsOverview:      css=#shoppingToolsMegaMenu .dw-mod.btn--primary[type='button']
+menuLifestyle:              css=#topnavigation .menu__link[aria-label='Lifestyle'][href='/lifestyle']
+menuOwners:                 css=#topnavigation [aria-label='Owners'][href='/owners']
+menuAboutUs:                css=#topnavigation [aria-label='About Us'][href='/about-us']
+
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+Logout_Calvin:              css=.DropDown_Style-dropdownContent li:nth-child(8)
+Logout_Button:              css=.DropDown_Style-dropdownContent li:nth-child(8)
+Logout_Lara:                css=.DropDown_Style-dropdownContent li:nth-child(5)
+Logout_Labeler:             css=.DropDown_Style-dropdownContent li:nth-child(3)
+Logout_Button_:             css=.DropDown_Style-dropdownContent li:nth-child(3)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+KPIs:                       css=.DropDown_Style-dropdownContent li:nth-child(3)
+StatisticsCalvin:           css=.DropDown_Style-dropdownContent li:nth-child(4)
+StatisticsLara:             css=.DropDown_Style-dropdownContent li:nth-child(3)
+Sequences:                  css=.DropDown_Style-dropdownContent li:nth-child(5)
+Modules:                    css=.DropDown_Style-dropdownContent li:nth-child(6)
+IngestTasks:                css=.DropDown_Style-dropdownContent li:nth-child(7)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+DropDown_Menu:              css=.DropDownMenu_Style-menuIcon
+Rememebr_ME_Checkbox:       css=.checkbox [name='loginRemember']
+DropDown_Userr:             css=.DropDownMenu_Style-menu i.fa-caret-down.fas
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+CreateCampaignButton:       css=.CampaignList_Style-actions button:nth-child(1)
+CampaignCreationTitle:      css=.GlobalStyle-pageTitle
+CampaignCreationpage:       css=.GlobalStyle-contentContainer .GlobalStyle-content
+CampaignNameFeild:          css=.InputStyle-withoutFloatingLabel input
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+DropDown_Menu:              css=.DropDownMenu_Style-menuIcon
+Language_Dropdown:          css=.fa-caret-down.CountrySelector_Style-caret
+German_Language:            css=.DropDown_Style-dropdownContent .flag-de
+French_Language:            css=.DropDown_Style-dropdownContent .flag-fr
+Breadcrumb_Items:           css=ol.Breadcrumb_Style-items
+User_Avatar:                css=.DropDownMenu_Style-menuIcon .fa-user-circle
+Tasks:                      css=.DropDown_Style-dropdownContent li:nth-child(2)
+Username_dropdown:          css=.DropDown_Style-dropdownContent li:nth-child(1)
+UserNameDropDown:           css=.Button_Style-button .DropDownMenu_Style-menu
+DropDown_Userr:             css=.DropDownMenu_Style-menu i.fa-caret-down.fas
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+ModuleDropDown:             css=.CampaignCreation_Style-moduleDefinitionBlock .InputStyle-withoutFloatingLabel select
+ModuleSelection:          css=div:nth-child(3) div.CampaignCreation_Style-block.CampaignCreation_Style-moduleDefinitionBlock  div  select  option:nth-child(5)
+MSRModule:                  css=.CampaignCreation_Style-moduleDefinitionBlock select option[value='46']
+BlindnessModule:            css=.CampaignCreation_Style-moduleDefinitionBlock select option[value='4']
+LDAModule:                  css=div:nth-child(3) div.CampaignCreation_Style-block.CampaignCreation_Style-moduleDefinitionBlock  div  select  option:nth-child(22)
+MODModule:                  css=div  div  div:nth-child(3)  div.CampaignCreation_Style-block.CampaignCreation_Style-moduleDefinitionBlock  div  select  option:nth-child(55)
+PDGModule:                  css=div  div  div:nth-child(3)  div.CampaignCreation_Style-block.CampaignCreation_Style-moduleDefinitionBlock  div  select  option:nth-child(75)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+ModelID:                    css=.CampaignCreation_Style-block:nth-child(4) select
+ModelID_Option:             css=.CampaignCreation_Style-block:nth-child(4) select option[value='1']
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+LabelerGroup:               css=div div:nth-child(5)  div:nth-child(1)  div  select
+LabelerGroupSelection4:     css=div  div:nth-child(5)  div:nth-child(1)  div  select  option:nth-child(13)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+QAGroup:                    css=div div:nth-child(5)  div:nth-child(2)  div  select
+QASelection4:               css=div:nth-child(5)  div:nth-child(2)  div.InputStyle-floatingLabel.InputStyle-withoutFloatingLabel  select  option:nth-child(24)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+DescriptionField:           css=.InputStyle-withoutFloatingLabel textarea
+CreateAndAddButton:         css=.CampaignCreation_Style-buttons .CampaignCreation_Style-button:nth-child(3) span button
+CreateButton:               css=.CampaignCreation_Style-buttons .CampaignCreation_Style-button:nth-child(2) span button
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+ResetFilters:               css=div .DisplaySequencesWithFilter_Style-filters a
+ExcludeTags:                css=iv.GlobalStyle-content.container div  div.col-2  div.DisplaySequencesWithFilter_Style-filters div:nth-child(4)  div div  div  div
+Filter:                     css=div div  div  div.GlobalStyle-content.container  div  div.col-2  span button
+TasksDropDownButton:        css=div:nth-child(1) .DisplaySequencesWithFilter_Style-actionComponent .InputStyle-floatingLabel select
+TasksDropDownSelection_1:   css=div:nth-child(1) .DisplaySequencesWithFilter_Style-actionComponent .InputStyle-floatingLabel select option:nth-child(2)
+TasksDropDownSelection_2:   css=div:nth-child(1) .DisplaySequencesWithFilter_Style-actionComponent .InputStyle-floatingLabel select option:nth-child(4)
+CheckAllSequencesCB:        css=.GlobalStyle-bold label span.Checkbox_Style-checkbox
+SequenceCheckbox_1:         css=tr:nth-child(1)                                         td:nth-child(1)    label    span.Checkbox_Style-checkbox
+SequenceCheckbox_2:         css=tr:nth-child(2) .DisplaySequencesWithFilter_Style-small:nth-child(1) label span.Checkbox_Style-checkbox
+SequenceCheckbox_3:         css=tr:nth-child(3)    td:nth-child(1)    label    span.Checkbox_Style-checkbox
+SequenceCheckbox_4:         css=tr:nth-child(4)    td:nth-child(1)    label    span.Checkbox_Style-checkbox
+SequenceCheckbox_5:         css=tr:nth-child(5)    td:nth-child(1)    label    span.Checkbox_Style-checkbox
+SequenceCheckbox_6:         css=tr:nth-child(6)    td:nth-child(1)    label    span.Checkbox_Style-checkbox
+Sequence1:                  css=tr:nth-child(1) .CampaignDetail_Style-ellipsisCell 
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+ImportButton:               css=.DisplaySequencesWithFilter_Style-actionComponent .Button_Style-buttonStyle-1
+StartCampaignButton:        css=span.AsyncButton_Style-wrapper button
+CampaignName:               css=tr:nth-child(1)    td:nth-child(1) .CampaignTable_Style-cellTitle
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+SortByDD_Campaigns:         css=.CampaignList_Style-filters .CampaignList_Style-filterSelect:nth-child(1) .InputStyle-floatingLabel select
+SortByNames_ASC:            css=.CampaignList_Style-filters .CampaignList_Style-filterSelect:nth-child(1) .InputStyle-floatingLabel select option:nth-child(2)
+SortByNames_DESC:           css=.CampaignList_Style-filters .CampaignList_Style-filterSelect:nth-child(1) .InputStyle-floatingLabel select                        option:nth-child(3)
+SortByCreationDates_ASC:    css=.CampaignList_Style-filters .CampaignList_Style-filterSelect:nth-child(1) .InputStyle-floatingLabel select                        option:nth-child(4)
+SortByCreationDates_DESC:   css=.CampaignList_Style-filters .CampaignList_Style-filterSelect:nth-child(1) .InputStyle-floatingLabel select                        option:nth-child(5)
+Reset_SortCampaigns:        css=div div.CampaignList_Style-filters    div:nth-child(1)    div    span    i
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+PageSizeDD:                 css=.CampaignList_Style-filters .CampaignList_Style-filterSelect:nth-child(2) .InputStyle-floatingLabel select
+PageSize_20:                css= .CampaignList_Style-filterSelect .InputStyle-floatingLabel select option[value='1']:nth-child(3)
+PageSize_50:                css=.CampaignList_Style-filters .CampaignList_Style-filterSelect:nth-child(2) .InputStyle-floatingLabel select option:nth-child(4)
+PageSize_100:               css=.CampaignList_Style-filters .CampaignList_Style-filterSelect:nth-child(2) .InputStyle-floatingLabel select option:nth-child(5)
+ResetPageSize_Default:      css=.CampaignList_Style-filters .CampaignList_Style-filterSelect:nth-child(2) .InputStyle-floatingLabel span i
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+FirstCampaign:              css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+SecondCampaign:             css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+ThirdCampaign:              css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+FourthCampaign:             css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+FifthCampaign:              css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+SixtCampaign:               css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+SeventhCampaign:            css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+EighthCampaign:             css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+NinthCampaign:              css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+TenthCampaign:              css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+20thCampaign:               css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+21stCampaign:               css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+50thCampaign:               css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+51stCampaign:               css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+100thCampaign:              css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+101thCampaign:              css=tbody tr:nth-child(1) td:nth-child(2) div  div.CampaignTable_Style-cellTitle
+FirstCampaign_CB:           css=tr:nth-child(1) td:nth-child(1) label span.Checkbox_Style-checkbox
+FirstCampaign_Name:         css=tr:nth-child(1) td:nth-child(2) div div.CampaignTable_Style-cellTitle
+PopUpDeleteCampaign:        css=div .CommonPopUp_Style-container
+DeleteCamp_Popup:           css=.CommonPopUp_Style-familyContainer p.CommonPopUp_Style-title
+ConfirmDeleteButton:        css=.AsyncButton_Style-wrapper button.Button_Style-buttonStyle-3
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+CampaignName:               css=.GlobalStyle-contentContainer div.GlobalStyle-content .row div.col-md-8 p:nth-child(3)
+ModuleName:                 css=div.GlobalStyle-content.container     div     div.col-md-8    div    span:nth-child(1)
+Labeler_UserGroup:          css=div.GlobalStyle-content .row div.col-md-8 .CampaignDetail_Style-infos span:nth-child(3)
+QA_UserGroup:               css=div.GlobalStyle-content.container div div.col-md-8 div         span:nth-child(4)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+SortJobsBy:                 css=div.CampaignDetail_Style-jobs
+SequenceName_ASC:           css=div.CampaignDetail_Style-jobs .GlobalStyle-content .CampaignDetail_Style-filters .InputStyle-floatingLabel:nth-child(1) select option:nth-child(2)
+SequenceName_DESC:          css=div.CampaignDetail_Style-jobs .GlobalStyle-content .CampaignDetail_Style-filters .InputStyle-floatingLabel:nth-child(1) select option:nth-child(3)
+JobType_ASC:                css=div.CampaignDetail_Style-jobs .GlobalStyle-content .CampaignDetail_Style-filters .InputStyle-floatingLabel:nth-child(1) select option:nth-child(4)
+JobType_DESC:               css=div.CampaignDetail_Style-jobs .GlobalStyle-content .CampaignDetail_Style-filters .InputStyle-floatingLabel:nth-child(1) select option:nth-child(5)
+NumberOfTasks_ASC:          css=div.CampaignDetail_Style-jobs .GlobalStyle-content .CampaignDetail_Style-filters .InputStyle-floatingLabel:nth-child(1) select option:nth-child(6)
+NumberOfTasks_DESC:         css=div.CampaignDetail_Style-jobs .GlobalStyle-content .CampaignDetail_Style-filters .InputStyle-floatingLabel:nth-child(1) select option:nth-child(7)
+LastUpdate_ASC:             css=div.CampaignDetail_Style-jobs .GlobalStyle-content .CampaignDetail_Style-filters .InputStyle-floatingLabel:nth-child(1) select option:nth-child(8)
+LastUpdate_DESC:            css=div.CampaignDetail_Style-jobs .GlobalStyle-content .CampaignDetail_Style-filters .InputStyle-floatingLabel:nth-child(1) select option:nth-child(9)
+Reset_SortJobs:             css=span .fa-times.SelectComponent_Style-arrow.fas
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+FirstSequence:              css=div.CampaignDetail_Style-jobs div table tbody tr:nth-child(1) td.CampaignDetail_Style-ellipsisCell
+SecondSequence:             css=div.CampaignDetail_Style-jobs div table tbody tr:nth-child(2) td.CampaignDetail_Style-ellipsisCell
+ThirdSequence:              css=div.CampaignDetail_Style-jobs div table tbody tr:nth-child(3) td.CampaignDetail_Style-ellipsisCell
+FourthSequence:             css=div.CampaignDetail_Style-jobs div table tbody tr:nth-child(4) td.CampaignDetail_Style-ellipsisCell
+FifthSequence:              css=div.CampaignDetail_Style-jobs div table tbody tr:nth-child(5) td.CampaignDetail_Style-ellipsisCell
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+FilterByStatus:             css=div.CampaignDetail_Style-jobs    div    div    div:nth-child(2)    select
+PendingStatus:              css=div.CampaignDetail_Style-jobs    div    div    div:nth-child(2)    select    option:nth-child(3)
+DraftStatus:                css=div.CampaignDetail_Style-jobs    div    div    div:nth-child(2)    select    option:nth-child(4)
+FailedStatus:               css=div.CampaignDetail_Style-jobs    div    div    div:nth-child(2)    select    option:nth-child(6)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+JobType1:                   css=div.CampaignDetail_Style-jobs    div    table    tbody tr:nth-child(1) td:nth-child(2)
+JobType2:                   css=div.CampaignDetail_Style-jobs    div    table    tbody tr:nth-child(2) td:nth-child(2)
+JobType3:                   css=div.CampaignDetail_Style-jobs    div    table    tbody tr:nth-child(3) td:nth-child(2)
+JobType4:                   css=div.CampaignDetail_Style-jobs    div    table    tbody tr:nth-child(4) td:nth-child(2)
+JobType5:                   css=div.CampaignDetail_Style-jobs    div    table    tbody tr:nth-child(5) td:nth-child(2)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+NumberOfTasks1:             css=div    table    tbody    tr:nth-child(1)    td.CampaignDetail_Style-numberOfTasksCell
+NumberOfTasks2:             css=div    table    tbody    tr:nth-child(2)    td.CampaignDetail_Style-numberOfTasksCell
+NumberOfTasks3:             css=div    table    tbody    tr:nth-child(3)    td.CampaignDetail_Style-numberOfTasksCell
+NumberOfTasks4:             css=div    table    tbody    tr:nth-child(4)    td.CampaignDetail_Style-numberOfTasksCell
+NumberOfTasks5:             css=div    table    tbody    tr:nth-child(5)    td.CampaignDetail_Style-numberOfTasksCell
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+LastUpdate1:                 css=div.CampaignDetail_Style-jobs div table tbody tr:nth-child(1) td:nth-child(4)
+LastUpdate2:                 css=div.CampaignDetail_Style-jobs div table tbody tr:nth-child(2) td:nth-child(4)
+LastUpdate3:                 css=div.CampaignDetail_Style-jobs div table tbody tr:nth-child(3) td:nth-child(4)
+LastUpdate4:                 css=div.CampaignDetail_Style-jobs div table tbody tr:nth-child(4) td:nth-child(4)
+LastUpdate5:                 css=div.CampaignDetail_Style-jobs div table tbody tr:nth-child(1) td:nth-child(4)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+ResumeButton:                 css=div  div.secondary  div  div.Card_Style-content  div.Card_Style-actions  button
+DeleteCampaignButton:         css=.CampaignList_Style-actions button:nth-child(2)
+#_______________________________________________________________________________________________________
+
+
+
+# ----------------------------------------------------dario --------------------------------------------
+#_______________________________________________________________________________________________________  
+DropDown_Menu:                css=.DropDownMenu_Style-menuIcon
+Language_Dropdown:            css=.fa-caret-down.CountrySelector_Style-caret
+German_Language:              css=.DropDown_Style-dropdownContent .flag-de
+French_Language:              css=.DropDown_Style-dropdownContent .flag-fr
+Breadcrumb_Items:             css=ol.Breadcrumb_Style-items
+User_Avatar:                  css=.DropDownMenu_Style-menuIcon .fa-user-circle
+Tasks:                        css=.DropDown_Style-dropdownContent li:nth-child(2)
+Username_dropdown:            css=.DropDown_Style-dropdownContent li:nth-child(1)
+UserNameDropDown:             css=.Button_Style-button .DropDownMenu_Style-menu
+Logout_Button:                css=.DropDown_Style-dropdownContent li:nth-child(8)
+DropDown_Userr:               css=.DropDownMenu_Style-menu i.fa-caret-down.fas
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+TagButton:                    css=div:nth-child(1)  div.DisplaySequencesWithFilter_Style-actionComponent  div:nth-child(2) button
+IngestedTasks:                css=.DropDown_Style-dropdownContent div li.DropDownMenu_Style-menuItem:nth-child(3)
+Ingested:                     css=div.col-10  table  tbody  tr:nth-child(1)  td.TableStyle-ellipsisCell
+DetailsButton:                css=div.col-10  table  tbody tr:nth-child(1)  td:nth-child(4)  i
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+DropDown_Menu:                css=.DropDownMenu_Style-menuIcon
+Rememebr_ME_Checkbox:         css=.checkbox [name='loginRemember']
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+Language_Dropdown:            css=.fa-caret-down.CountrySelector_Style-caret
+German_Language:              css=.DropDown_Style-dropdownContent .flag-de
+French_Language:              css=.DropDown_Style-dropdownContent .flag-fr
+Breadcrumb_Items:             css=ol.Breadcrumb_Style-items
+User_Avatar:                  css=.DropDownMenu_Style-menuIcon .fa-user-circle
+Tasks:                        css=.DropDown_Style-dropdownContent li:nth-child(2)
+Username_dropdown:            css=.DropDown_Style-dropdownContent li:nth-child(1)
+UserNameDropDown:             css=.Button_Style-button .DropDownMenu_Style-menu
+Logout_Dario:                 css=.DropDown_Style-dropdownContent li:nth-child(4)
+DropDown_Userr:               css=.DropDownMenu_Style-menu i.fa-caret-down.fas
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+TagButton:                    css=div:nth-child(1)  div.DisplaySequencesWithFilter_Style-actionComponent  div:nth-child(2) button
+IngestedTasks:                css=.DropDown_Style-dropdownContent div li.DropDownMenu_Style-menuItem:nth-child(3)
+Ingested:                     css=div.col-10  table  tbody  tr:nth-child(1)  td.TableStyle-ellipsisCell
+DetailsButton:                css=div.col-10  table  tbody tr:nth-child(1)  td:nth-child(4)  i
+#_______________________________________________________________________________________________________
+
+
+
+# ----------------------------------------------------labeler--------------------------------------------
+#_______________________________________________________________________________________________________
+Resume_Session_Button:        css=.Button_Style-primaryButton
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+Rememebr_ME_Checkbox:         css=.checkbox [name='loginRemember']
+LogoutLabeler:                css=.DropDown_Style-dropdownContent li:nth-child(3)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+Progress_Loaderr:             css=.ProgressBar_Style-progressBarContainer [src='assets/img/logo-animated.svg']
+Progress_Loader:              css=div  div  div.ProgressBar_Style-progressBarContainer
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+Language_Dropdown:            css=.fa-caret-down.CountrySelector_Style-caret
+German_Language:              css=.DropDown_Style-dropdownContent .flag-de
+French_Language:              css=.DropDown_Style-dropdownContent .flag-fr
+Breadcrumb_Items:             css=ol.Breadcrumb_Style-items
+User_Avatar:                  css=.DropDownMenu_Style-menuIcon .fa-user-circle
+Tasks:                        css=.DropDown_Style-dropdownContent li:nth-child(2)
+Username_dropdown:            css=.DropDown_Style-dropdownContent li:nth-child(1)
+Logout_Labeler:               css=.DropDown_Style-dropdownContent li:nth-child(3)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+Submit_Button:                css=.TaskSessionManagementComponent_Style-taskSessionTools .Button_Style-primaryButton:nth-child(3)
+Submission_Popup:             css=.CommonPopUp_Style-container
+Submit_Session:               css=.Labeler_Style-popupButton:nth-child(1) .btn
+SubmitSession:                css=div  div  div.Labeler_Style-popupContent  div  div:nth-child(1)  button
+Submit_&_new-Session:         css= div.Labeler_Style-popupContent  div  div:nth-child(2)  button
+Cancel_Submission:            css=.Labeler_Style-popupButton:nth-child(3) .btn
+Pause_SessionLabeler:         css=div  header  div.Header_Style-content  div.Header_Style-countrySelector  div  div.TaskSessionManagementComponent_Style-taskSessionTools button:nth-child(2)
+Pause-Session_Popup:          css=.CommonPopUp_Style-container
+Save_&_Pause-Session:         css=.Labeler_Style-popupButton:nth-child(1) .btn
+Cancel_Pause:                 css=.Labeler_Style-popupButton:nth-child(2) .btn
+Block_Session:                css=.Button_Style-button .fa-exclamation-circle
+Block_Session_Popup:          css=.CommonPopUp_Style-container
+Block_Session_Accept:         css=.Labeler_Style-popupButton:nth-child(1) .btn
+Cancel_Block_Session:         css=.Labeler_Style-popupButton:nth-child(2) .btn
+TaskInfo:                     css=div  header  div.Header_Style-content  div.Header_Style-countrySelector  div div.ToolBar_Style-toolBarList  div:nth-child(4)  button:nth-child(7)  i
+TaskIDInfo:                   css=div  div  div:nth-child(2)  div.TaskInformationPopup_Style-family  p:nth-child(3)
+CloseTaskInfo:                css=div  div  div:nth-child(2)  div.TaskInformationPopup_Style-control  button
+TaskInfoQA:                   css= div.Header_Style-content  div.Header_Style-countrySelector  div  div.EvaluationToolbar_Style-toolBarList  div:nth-child(2)  button:nth-child(3)  i
+
+SequenceIDInfo:               css=div  div  div:nth-child(2)  div.TaskInformationPopup_Style-family  p:nth-child(2)
+
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+Session_Timer:                css=.Labeler_Style-taskStatus div:nth-child(2)
+Documentation_Button:         css=.Button_Style-button .fa-file-alt
+Documentation_Popup:          css=[role='document'] h2
+Report_Bug_Button:            css=.Button_Style-button .fa-bug
+Report_Bug_Popup:             css=.CommonPopUp_Style-container
+Report_Bug_Title:             css=.CommonPopUp_Style-title
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+Keyboard_Shortcuts_Button:    css=.Button_Style-button .fa-keyboard
+Keyboard_Shortcuts_Popup:     css=.CommonPopUp_Style-container
+Keyboard_Shortcuts_Title:     css=.CommonPopUp_Style-title
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+Image_Editing_Button:         css=.Button_Style-button .fa-sliders-h
+ImageEditing_Popup:           css=.secondary.DropDown_Style-dropdownContent
+ImageEditing_Title:           css=.InputRange_Style-title
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+Task_Information_Button:      css=.Button_Style-button .fa-info-circle
+Task_Information_Popup:       css=.CommonPopUp_Style-container
+Task_Information_Title:       css=.CommonPopUp_Style-title
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+Comments_Tab:                 css=.LeftPanel_Style-labels .LeftPanel_Style-label.LeftPanel_Style-activeLabel
+Comments_section:             css=.Tabs_Style-activeTab
+Comments_Tab_Title:           css=.CommentsTab_Style-sectionTitle
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+VehicleClassesTab:            css=.Tabs_Style-label .fa-bookmark
+VehicleClassesSection:        css=.AnnotationsTab_Style-labelDefinition
+eyeIcon:                      css=div:nth-child(1)  div  div.Drawer_Style-drawerContent  div  div.Tabs_Style-activeTab  div  div  div:nth-child(2)  div div.AttributeComponent_Style-title
+ObjectClass:                  css=div:nth-child(1)  div  div.Drawer_Style-drawerContent  div  div.Tabs_Style-activeTab  div  div  div:nth-child(2)  div div.AttributeComponent_Style-title
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+CarOrVanClass:                css=div  div.Labeler_Style-labelsAndEditor  div:nth-child(1)  div  div.Drawer_Style-drawerContent  div  div.Tabs_Style-activeTab  div  div  div:nth-child(1)  div  div.AttributeComponent_Style-title
+TruckOrBusClass:              css=div  div.Labeler_Style-labelsAndEditor  div:nth-child(1)  div  div.Drawer_Style-drawerContent  div  div.Tabs_Style-activeTab  div  div  div:nth-child(2)  div  div.AttributeComponent_Style-title
+MotorbikeClass:               css=div  div.Labeler_Style-labelsAndEditor  div:nth-child(1)  div  div.Drawer_Style-drawerContent  div  div.Tabs_Style-activeTab  div  div  div:nth-child(3)  div  div.AttributeComponent_Style-title
+SpecialClass:                 css=div  div.Labeler_Style-labelsAndEditor  div:nth-child(1)  div  div.Drawer_Style-drawerContent  div  div.Tabs_Style-activeTab  div  div  div:nth-child(4)  div  div.AttributeComponent_Style-title
+TrailerClass:                 css=div  div.Labeler_Style-labelsAndEditor  div:nth-child(1)  div  div.Drawer_Style-drawerContent  div  div.Tabs_Style-activeTab  div  div  div:nth-child(5)  div  div.AttributeComponent_Style-title
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+DirectSelection:              css=div.ToolBar_Style-toolBarList > div:nth-child(2) > button.Button_Style-button.Button_Style-active > i
+#_______________________________________________________________________________________________________
+
+
+# ----------------------------------lara----------------------------------------------------------------
+
+#_______________________________________________________________________________________________________
+Rememebr_ME_Checkbox:         css=.checkbox [name='loginRemember']
+Language_Dropdown:            css=.fa-caret-down.CountrySelector_Style-caret
+German_Language:              css=.DropDown_Style-dropdownContent .flag-de
+French_Language:              css=.DropDown_Style-dropdownContent .flag-fr
+Breadcrumb_Items:             css=ol.Breadcrumb_Style-items
+User_Avatar:                  css=.DropDownMenu_Style-menuIcon .fa-user-circle
+Tasks:                        css=.DropDown_Style-dropdownContent li:nth-child(2)
+Username_dropdown:            css=.DropDown_Style-dropdownContent li:nth-child(1)
+UserNameDropDown:             css=.Button_Style-button .DropDownMenu_Style-menu
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+DropDown_Userr:               css=.DropDownMenu_Style-menu i.fa-caret-down.fas
+StatisticsButton:             css=.DropDown_Style-dropdownContent li:nth-child(3)
+CampaignsButton:              css=.DropDown_Style-dropdownContent li:nth-child(4)
+Logout_Lara:                  css=.DropDown_Style-dropdownContent li:nth-child(5)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+AddNewWorker:                 css=.Button_Style-button.Button_Style-buttonStyle-1
+RoleDropDown :                css=div:nth-child(2)  div:nth-child(1) div  select
+GroupDropDown:                css=div:nth-child(2)  div:nth-child(2) div  select
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+ManeulaUser:                  css=div:nth-child(2) div:nth-child(1)  div select option:nth-child(2)
+QuentinUser:                  css=div:nth-child(2) div:nth-child(1)  div select option:nth-child(3)
+#_______________________________________________________________________________________________________
+
+
+#_______________________________________________________________________________________________________
+ManeulaUserGroup:             css=div:nth-child(2)  div:nth-child(2)  div  select  option:nth-child(2)
+QuentinUserGroup :            css=div:nth-child(2)  div:nth-child(2)  div  select  option:nth-child(3)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+CreateUserButton:             css=div:nth-child(3) div:nth-child(1) button
+LaraDashboard:                https://goldenalgo-predev.eu.acdc.swarm.audi/#dashboard
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+LabelerTab :                  css=div.LaraDashboard_Style-userList  div  div.Tabs_Style-tabs.LaraDashboard_Style-tabs  div.Tabs_Style-labels  div:nth-child(1)
+QATab  :                      css=div.LaraDashboard_Style-userList  div  div.Tabs_Style-tabs.LaraDashboard_Style-tabs  div.Tabs_Style-labels  div:nth-child(2)  span
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+CreatedLabeler :              css=div div.LaraDashboard_Style-userList div div.Tabs_Style-tabs.LaraDashboard_Style-tabs div.Tabs_Style-activeTab table tbody tr td:nth-child(1)
+UserAgency   :                css=div div.LaraDashboard_Style-userList div div.Tabs_Style-tabs.LaraDashboard_Style-tabs div.Tabs_Style-activeTab table tbody tr td:nth-child(2)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+CreatedQA  :                  css=div.LaraDashboard_Style-userList  div  div.Tabs_Style-tabs.LaraDashboard_Style-tabs  div.Tabs_Style-activeTab  table  tbody  tr:nth-child(1)  td:nth-child(1)
+DeleteUser:                   css=div div.LaraDashboard_Style-userList div div.Tabs_Style-tabs.LaraDashboard_Style-tabs div.Tabs_Style-activeTab table tbody tr td:nth-child(3)  button
+ConfirmDelete:                css=div  div  div.LaraDashboard_Style-modalBody  div  div:nth-child(1)  span  button
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+LabelerGroupDD :              css=div  div  div  div  div  div:nth-child(3)  select
+LabelerGroup1:                css=div  div  div  div  div  div:nth-child(3)  select  option.SelectComponent_Style-option
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+ui_Lara1:                     css=div:nth-child(5)  div:nth-child(1)  div  select  option:nth-child(17)
+ui_Lara2:                     css=div:nth-child(5)  div:nth-child(2)  div  select  option:nth-child(13)
+#_______________________________________________________________________________________________________
+
+#_______________________________________________________________________________________________________
+QAGroupDD :                   css=div  div  div  div  div  div:nth-child(5)  select
+QAGroup1  :                   css=div  div  div  div  div  div:nth-child(5)  select  option.SelectComponent_Style-option
+
+
+# ----------------------------------------QA-------------------------------------------------------------
+
+#____________________________________________________________________________________________________________________________
+DropDown_Menu:                 css=.DropDownMenu_Style-menuIcon
+Resume_Session_Button:         css=.Button_Style-primaryButton
+Progress_Loader:               css=.ProgressBar_Style-progressBarContainer
+Language_Dropdown:             css=.fa-caret-down.CountrySelector_Style-caret
+German_Language:               css=.DropDown_Style-dropdownContent .flag-de
+French_Language:               css=.DropDown_Style-dropdownContent .flag-fr
+Breadcrumb_Items:              css=ol.Breadcrumb_Style-items
+User_Avatar:                   css=.DropDownMenu_Style-menuIcon .fa-user-circle
+Tasks:                         css=.DropDown_Style-dropdownContent li:nth-child(2)
+Username_dropdown:             css=.DropDown_Style-dropdownContent li:nth-child(1)
+Logout_QA:                     css=.DropDown_Style-dropdownContent li:nth-child(3)
+Rememebr_ME_Checkbox:          css=.checkbox [name='loginRemember']
+#____________________________________________________________________________________________________________________________
+
+#____________________________________________________________________________________________________________________________
+Reject_Button:                   css=div.Header_Style-content  div.Header_Style-countrySelector  div  div.EvaluationBar_Style-actionGroup  button.Button_Style-button.ButtonIconAndText_Style-buttonWithIcon.Button_Style-buttonStyle-4.Button_Style-primaryButton.btn
+ApproveButton:                   css=.Button_Style-button.ButtonIconAndText_Style-buttonWithIcon.Button_Style-buttonStyle-1
+ApprovePopup:                    css=.EvaluationApproveReject_Style-container .EvaluationApproveReject_Style-family
+PauseButton:                     css=.Button_Style-button.Button_Style-buttonStyle-2
+#____________________________________________________________________________________________________________________________
+
+#____________________________________________________________________________________________________________________________
+Pause_SessionQA:                 css=.EvaluationBar_Style-actionGroup .Button_Style-button.Button_Style-buttonStyle-2.Button_Style-primaryButton.btn
+QATimer:                         css=div  div  header  div.Header_Style-content  div.Header_Style-countrySelector  div  div.EvaluationBar_Style-actionGroup  div
+Keyboard_Shortcuts_Button_QA:    css=.Button_Style-button .fas.fa-keyboard
+#____________________________________________________________________________________________________________________________

@@ -1,0 +1,8 @@
+#Reports
+reports
+
+#Credentials
+Credentials/credentails.json
+
+tests/UI/reports
+tests/UI/debug.log

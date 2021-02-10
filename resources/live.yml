@@ -15,10 +15,10 @@ menuLifestyle:              css=#topnavigation .menu__link[aria-label='Lifestyle
 menuOwners:                 css=#topnavigation [aria-label='Owners'][href='/owners']
 menuAboutUs:                css=#topnavigation [aria-label='About Us'][href='/about-us']
 
+# ------------------------------------------Download Broucher------------------------------------------------------
 #_______________________________________________________________________________________________________
 
-#_______________________________________________________________________________________________________
-Logout_Calvin:              css=.DropDown_Style-dropdownContent li:nth-child(8)
+downloadBroucherButton:     css=
 Logout_Button:              css=.DropDown_Style-dropdownContent li:nth-child(8)
 Logout_Lara:                css=.DropDown_Style-dropdownContent li:nth-child(5)
 Logout_Labeler:             css=.DropDown_Style-dropdownContent li:nth-child(3)

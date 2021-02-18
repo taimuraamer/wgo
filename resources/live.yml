@@ -5,8 +5,8 @@
 SERVER:                     https://www.winnebago.com/
 BROWSER:                    chrome
 homepageLogo:               css=.logo__img[alt='Winnebago logo']
-menuModels:                 css=#topnavigation li:nth-child(1)
-modelItems:                 css=.product-list__mega-menu__image-section .u-block .b-loaded
+menuModels:                 css=#topnavigation li:nth-child(1) .menu__link--active
+modelItems:                 css=.product-list__mega-menu__image-section .u-block .b-loaded  
 modelDetails:               css=.models-info-area .fa-list-ul
 menuShoppingTools:          css=#topnavigation li:nth-child(2) .menu__link
 parts&Service:              css=#shoppingToolsMegaMenu .btn[href='/owners/owner-tools']
@@ -15,24 +15,56 @@ menuLifestyle:              css=#topnavigation .menu__link[aria-label='Lifestyle
 menuOwners:                 css=#topnavigation [aria-label='Owners'][href='/owners']
 menuAboutUs:                css=#topnavigation [aria-label='About Us'][href='/about-us']
 
-# ------------------------------------------Download Broucher------------------------------------------------------
+# ----------------------------------Download Broucher---------------------------------------------------
 #_______________________________________________________________________________________________________
 
-downloadBroucherButton:     css=
-Logout_Button:              css=.DropDown_Style-dropdownContent li:nth-child(8)
-Logout_Lara:                css=.DropDown_Style-dropdownContent li:nth-child(5)
-Logout_Labeler:             css=.DropDown_Style-dropdownContent li:nth-child(3)
-Logout_Button_:             css=.DropDown_Style-dropdownContent li:nth-child(3)
+journeyCoach:               css=.u-product-title--giant [href='/models/product/motorhomes-and-towables/motorhomes/class-a/journey']
+shoppingTools:              css=[target='Block__ShoppingTools'][type='button']            
+downloadBroucherButton:     css=[aria-label='Download the brochure for this product']
+sendByMail:                 css=[for='PleaseSendByMail']
+submitButton:               css=[aria-label='Click to submit this form']
+downloadBroucherPdf:        css=#downloadBrochureButton
+firstName:                  css=#PrimaryFirstName[name='PrimaryFirstName']
+lastName:                   css=#PrimaryLastName[name='PrimaryLastName']
+postalCode:                 css=[placeholder='Postal Code *'][name='PostalCode']
+phone:                      css=#PhoneNumber[name='PhoneNumber']
+eMail:                      css=#EmailAddress[name='EmailAddress']
+sendByEmailCheckBox:        css=.dw-mod[for='PleaseSendByMail']
+addressLine1:               css=#AddressLine1[name='AddressLine1']
+addressLine2:               css=#AddressLine2[placeholder='Address Line 2']
+city:                       css=#City[placeholder='City *']
+selectCountry:              css=[data-target='Country']
+selectCountryOption:        css=[data-value='US']
+selectState:                css=[data-target='StateBrochureDownload']
+selectStateOption:          css=[data-value='AL']
+locateDealer:               css=#locateDealer[href='/shopping-tools/locate-a-dealer']
+
+# ----------------------------------------Gallery----------------------------------------------------
 #_______________________________________________________________________________________________________
 
+gallery:                    css=.sticky--header--menu--element [target='Block__Gallery']
+exterior:                   css=.gallery-main-wrapper [aria-label='Exterior view Journey']
+
+# ----------------------------------------Floorplans-------------------------------------------------
 #_______________________________________________________________________________________________________
-KPIs:                       css=.DropDown_Style-dropdownContent li:nth-child(3)
-StatisticsCalvin:           css=.DropDown_Style-dropdownContent li:nth-child(4)
-StatisticsLara:             css=.DropDown_Style-dropdownContent li:nth-child(3)
-Sequences:                  css=.DropDown_Style-dropdownContent li:nth-child(5)
-Modules:                    css=.DropDown_Style-dropdownContent li:nth-child(6)
-IngestTasks:                css=.DropDown_Style-dropdownContent li:nth-child(7)
+
+floorPlans:                 css=.sticky--header--menu--element [target='Block__Floorplans']
+
+# ----------------------------------------Specifications---------------------------------------------
 #_______________________________________________________________________________________________________
+
+specifications:             css=.sticky--header--menu--element [target='Block__Specifications']
+
+# ----------------------------------------Locate a Dealer--------------------------------------------
+#_______________________________________________________________________________________________________
+selectClass:                css=[data-target='DealersSelectClass'] [aria-describedby='dropdownHelper_Description DealersSelectClass__option']
+classA:                     css=[onclick='populateDataModelsSelect(this)'][data-value='Class A']
+selectModel:                css=[aria-describedby='dropdownHelper_Description DealersSelectModel__option']
+journey:                    css=.dropdown__content [data-year='2022']
+dealerCity:                 css=[placeholder='Search by City and State/Province or ZIP/Postal Code *']
+searchCity:                 css=[aria-label='Click to search for dealers']
+cookieOk:                   css=.modal--md [data-gtm-yt-inspected-30293499_17='true']
+
 
 #_______________________________________________________________________________________________________
 DropDown_Menu:              css=.DropDownMenu_Style-menuIcon
